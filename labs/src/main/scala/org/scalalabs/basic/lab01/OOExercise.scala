@@ -21,9 +21,9 @@ import scala.language.implicitConversions
  * - Provide it with one constructor parameter: symbol:String
  * - Extend the previously created Euro class from Currency
  * - Override the toString method of Euro to represent the following String:
- *   -> symbol + ': ' + euro + ',' + cents.  E.g: EUR 200,05
+ *   -> symbol + ': ' + euro + ',' + cents.  E.g: EUR: 200,05
  * - In case the cents are 0 use this representation:
- *   -> symbol + ': ' + euro + ',--. E.g.: EUR 200.--
+ *   -> symbol + ': ' + euro + ',--. E.g.: EUR: 200,--
  *
  * Exercise 3:
  * - Mix the Ordered trait in Euro
